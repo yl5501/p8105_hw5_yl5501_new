@@ -162,7 +162,7 @@ library(ggplot2)
 library(purrr)
 
 # Load the data
-homicide_data <- read.csv("data/homicide-data.csv", encoding = "latin1")
+homicide_data <- read.csv("homicide-data.csv", encoding = "latin1")
 
 # Create a city_state variable
 homicide_data <- homicide_data %>%
